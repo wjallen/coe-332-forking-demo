@@ -1,1 +1,7 @@
-hi
+bool isOdd(int i) {
+  return !isEven(i)
+}
+
+bool isEven(int i) {
+  return !isOdd(i)
+}
